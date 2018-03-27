@@ -11,6 +11,6 @@ Again, there are several sites explaining the Dorabella Cipher, but I'll name on
 
 So far, this script has been pretty much hack-as-you-go. The hashes vary, beginning with an array of sequential keys starting at 12:00 and moving clockwise into one of eight positions. Then, another hash considers the possibility that instead of going top to bottom/left to right (a-b-c), Elgar may have gone bottom to top/right to left (c-b-a), and continues to explore that possibility in another set of eight sequential positions.
 
-The "alt" hashes explore the possibility that he may have alternated between one or the other, though still in a sequential method. After all, Penny was not a cryptologist yet should have been able to crack this cipher.
+The "alt" hashes explore the possibility that he may have alternated between one or the other, though still in a sequential method. After all, Dora Penny was not a cryptologist yet should have been able to crack this cipher.
 
 Hashes ending in 'cw' are clockwise, while those ending in 'ccw' are counter-clockwise. The 1:1 key/plaintext that aligns to Elgars post-Dorabella notes illustrated with the site linked above is shown with seq_combos_cw[7]. The only difference is the visualization of the key itself because I felt the outside of the humps should be pointing in that direction.
